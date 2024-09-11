@@ -13,22 +13,33 @@
             <h2>Calculadora IMC</h2>
             <div class="input">
                 <div class="input-altura">
-                    <label for="Altura">Altura: </label>
+                    <label for="Altura">Altura: <span class="required-field">"</span></label>
                     <input type="text" 
                     name="Altura" 
                     id="Altura"
-                    placeholder="Altura ex: 1,75">
+                    class="block"
+                    placeholder="Altura ex: 1,75" required>
                 </div>
 
                 <div class="input-peso">
-                    <label for="Peso">Peso: </label>
+                    <label for="Peso">Peso: <span class="required-field">"</span></label>
                     <input type="text" 
                     name="Peso" 
                     id="Peso"
-                    placeholder="Peso ex: 80.5"></div>
+                    class="block"
+                    placeholder="Peso ex: 80.5" required>
+                </div>
                 </div>                
             </div>
+            </div>
         </div>
+        <div class="buttons">
+            <div class="btn-padding">
+                <button class="btn-result">Calcular</button>
+            </div>
+            <div class="btn-padding">
+                <button class="btn-remove">Remover</button>
+            </div>
     </div>
 </body>
 </html>

@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: #070769;
+    background-color: #0b0b71;
 }
 
 
@@ -13,7 +13,8 @@ body{
 }
 
 .main-box {
-    border: 4px solid rgb(128, 190, 21);
+    border: 4px solid rgb(107, 14, 165);
+    border-radius: 15px;
     width: 400px;
     height: 390px;
     margin-left: 33%;
@@ -22,13 +23,51 @@ body{
 }
 
 
-.input-altura, .input-peso {
+.input-altura, .input-peso{
     padding: 25px;
     display: flex;
     flex-direction: column;
     width: 20rem;
 }
 
+
+.buttons{
+    display: flex;
+    margin-left: 38%;
+    margin-top: -7%;
+}
+
+.buttons :hover{
+    color: #fff;
+}
+
+.btn-result , .btn-remove {
+    padding-left: 10px;
+    border: solid 2px #712699;
+    width: 100px;
+    height: 40px;
+    background-color: #892fb9;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+
+
+.btn-padding{
+    padding-left: 3px;
+}
+
+
+.block{
+    display: block;
+}
+
+.required-field{
+    color: red;
+}
 
 label {
     margin-bottom: 5px;

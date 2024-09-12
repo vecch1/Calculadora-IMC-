@@ -45,13 +45,13 @@ const data = [
   const calcBtn = document.querySelector("#calc-btn");
   const clearBtn = document.querySelector("#clear-btn");
   
-  const calcContainer = document.querySelector("#calc-container");
+  const calcContainer = document.querySelector("#calculator-container");
   const resultContainer = document.querySelector("#result-container");
   
   const imcNumber = document.querySelector("#imc-number span");
   const imcInfo = document.querySelector("#imc-info span");
   
-  const backBtn = document.querySelector("#back-btn");
+  const backBtn = document.querySelector("#reset-btn");
   
   // Funções
   function createTable(data) {

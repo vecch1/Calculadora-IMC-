@@ -26,7 +26,7 @@
   }
   
   /* IMC Form */
-  #calc-container h2 {
+  #calculator-container h2 {
     text-align: center;
     margin-bottom: 2rem;
   }
@@ -54,7 +54,7 @@
     padding: 1rem 0.5rem;
   }
   
-  .action-control {
+  .buttons-control {
     display: flex;
     justify-content: space-between;
     margin-top: 2rem;
@@ -135,7 +135,7 @@
     max-width: 80px;
   }
   
-  #back-btn {
+  #reset-btn {
     align-self: center;
   }
   
